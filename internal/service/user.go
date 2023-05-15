@@ -12,7 +12,7 @@ func (user userImpl) GetUsers(c *fiber.Ctx) error {
 	return c.JSON("Get users")
 }
 func (user userImpl) GetUser(c *fiber.Ctx) error {
-	return c.JSON("Get User")
+	return c.JSON("Get Specific User")
 }
 func (user userImpl) Register(c *fiber.Ctx) error {
 	return c.JSON("Create/Register User")

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"goblog/internal/handlers"
 	"goblog/internal/service"
 	"log"
@@ -11,7 +10,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello bloggers!")
 	app := fiber.New()
 	v1 := app.Group("api/v1").(*fiber.Group)
 
@@ -23,8 +21,10 @@ func main() {
 
 	// Setup services
 	blogSVC := service.NewBlogService()
+	userSVC := service.NewUserService()
 
 	// Set up routes
 	handlers.SetupBlogRoutes(v1, blogSVC)
+	handlers.SetupUserRoutes(v1, userSVC)
 	log.Fatal(app.Listen(":3000"))
 }
