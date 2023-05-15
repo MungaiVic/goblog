@@ -8,7 +8,7 @@ type BlogService interface {
 	GetAllBlogs(c *fiber.Ctx) error
 	GetBlog(c *fiber.Ctx) error
 	CreateBlog(c *fiber.Ctx) error
-	EditBlog(c *fiber.Ctx)
+	EditBlog(c *fiber.Ctx) error
 	DeleteBlog(c *fiber.Ctx) error
 }
 
