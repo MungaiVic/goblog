@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "7adf63a1-c9c5-4fd8-a647-a42dd62c65be",
+    "colId": "c7189024-05be-43f8-99a9-b36276175d7d",
+    "containerId": "",
+    "name": "Get All blogs",
+    "url": "http://127.0.0.1:3000/api/v1/blog/",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-05-15T14:37:29.301Z",
+    "modified": "2023-05-15T14:40:34.771Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "51876fff-671e-4896-8aa8-8d06c0b83230",
+    "colId": "c7189024-05be-43f8-99a9-b36276175d7d",
+    "containerId": "",
+    "name": "Create Blog",
+    "url": "http://127.0.0.1:3000/api/v1/blog/",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-05-15T14:41:41.916Z",
+    "modified": "2023-05-15T14:41:54.968Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d1065a29-39f7-4a8a-a77b-e768ed0a2d32",
+    "colId": "c7189024-05be-43f8-99a9-b36276175d7d",
+    "containerId": "",
+    "name": "Update Blog",
+    "url": "http://127.0.0.1:3000/api/v1/blog/1",
+    "method": "PATCH",
+    "sortNum": 30000,
+    "created": "2023-05-15T14:50:16.993Z",
+    "modified": "2023-05-15T14:51:18.908Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "37593208-5697-4f3f-bd37-80ec6b153c0c",
+    "colId": "c7189024-05be-43f8-99a9-b36276175d7d",
+    "containerId": "",
+    "name": "Delete Blog",
+    "url": "http://127.0.0.1:3000/api/v1/blog/1",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2023-05-15T14:50:43.399Z",
+    "modified": "2023-05-15T14:51:23.895Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
