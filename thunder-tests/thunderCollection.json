@@ -4,6 +4,28 @@
     "colName": "goblog",
     "created": "2023-05-15T14:37:19.344Z",
     "sortNum": 10000,
-    "folders": []
+    "folders": [
+      {
+        "_id": "6d85b868-7f15-40de-bc46-080252d0d2ff",
+        "name": "blogs",
+        "containerId": "",
+        "created": "2023-05-15T15:25:12.299Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "d4cdd54c-5903-4eed-8192-a5e7f9e4a4f2",
+        "name": "users",
+        "containerId": "",
+        "created": "2023-05-15T15:25:36.836Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "435dc671-1daa-4147-b25d-c11c04944f02",
+        "name": "comments",
+        "containerId": "",
+        "created": "2023-05-16T07:17:52.452Z",
+        "sortNum": 30000
+      }
+    ]
   }
 ]
