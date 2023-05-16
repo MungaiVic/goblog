@@ -22,7 +22,6 @@ type UserService interface {
 }
 
 type CommentService interface {
-	GetComments(c *fiber.Ctx) error
 	CreateComment(c *fiber.Ctx) error
 	EditComment(c *fiber.Ctx) error
 	DeleteComment(c *fiber.Ctx) error

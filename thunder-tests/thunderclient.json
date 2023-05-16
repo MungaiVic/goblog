@@ -124,5 +124,47 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "8236ab8b-189c-405f-ab86-48c2eea4fd16",
+    "colId": "c7189024-05be-43f8-99a9-b36276175d7d",
+    "containerId": "435dc671-1daa-4147-b25d-c11c04944f02",
+    "name": "Get Comments",
+    "url": "http://127.0.0.1:3000/api/v1/comments/1",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2023-05-16T07:18:18.177Z",
+    "modified": "2023-05-16T07:21:38.726Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "0fd2d1b2-3041-49a9-8678-112e743a123b",
+    "colId": "c7189024-05be-43f8-99a9-b36276175d7d",
+    "containerId": "435dc671-1daa-4147-b25d-c11c04944f02",
+    "name": "Edit Comment",
+    "url": "http://127.0.0.1:3000/api/v1/comments/1",
+    "method": "PATCH",
+    "sortNum": 70000,
+    "created": "2023-05-16T07:21:44.171Z",
+    "modified": "2023-05-16T07:21:55.601Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "53deb030-90f0-4a56-b5be-fec2b0fb075d",
+    "colId": "c7189024-05be-43f8-99a9-b36276175d7d",
+    "containerId": "435dc671-1daa-4147-b25d-c11c04944f02",
+    "name": "Delete Comment",
+    "url": "http://127.0.0.1:3000/api/v1/comments/1",
+    "method": "DELETE",
+    "sortNum": 80000,
+    "created": "2023-05-16T07:21:59.293Z",
+    "modified": "2023-05-16T07:22:20.394Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

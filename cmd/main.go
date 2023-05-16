@@ -22,9 +22,12 @@ func main() {
 	// Setup services
 	blogSVC := service.NewBlogService()
 	userSVC := service.NewUserService()
+	commentSVC := service.NewCommentService()
 
 	// Set up routes
 	handlers.SetupBlogRoutes(v1, blogSVC)
 	handlers.SetupUserRoutes(v1, userSVC)
+	handlers.SetupCommentRoutes(v1, commentSVC)
+
 	log.Fatal(app.Listen(":3000"))
 }
