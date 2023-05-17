@@ -10,7 +10,12 @@ func NewBlogService() BlogService {
 }
 
 func (blog blogImpl) GetAllBlogs(c *fiber.Ctx) error {
-	return c.JSON("Here are all blogs")
+	blogs := map[string]interface{}{
+		"blog1": "This is a test blog",
+		"blog2": "This is a test blog number.",
+	}
+
+	return c.JSON(blogs)
 }
 func (blog blogImpl) GetBlog(c *fiber.Ctx) error {
 	return c.JSON("Here is a blog")
