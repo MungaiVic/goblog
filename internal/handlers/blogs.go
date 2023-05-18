@@ -12,6 +12,9 @@ func SetupBlogRoutes(group *fiber.Group, svc service.BlogService) {
 	blogRoutes.Get("/", func(c *fiber.Ctx) error {
 		return svc.GetAllBlogs(c)
 	})
+	blogRoutes.Get("/:id", func(c *fiber.Ctx) error {
+		return svc.GetBlog(c)
+	})
 	blogRoutes.Post("/", func(c *fiber.Ctx) error {
 		return svc.CreateBlog(c)
 	})

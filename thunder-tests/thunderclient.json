@@ -166,5 +166,19 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "36b27339-ab5c-4f77-b2d7-59040930bec3",
+    "colId": "c7189024-05be-43f8-99a9-b36276175d7d",
+    "containerId": "6d85b868-7f15-40de-bc46-080252d0d2ff",
+    "name": "Get single blog",
+    "url": "http://127.0.0.1:3000/api/v1/blog/1",
+    "method": "GET",
+    "sortNum": 12500,
+    "created": "2023-05-18T14:07:25.851Z",
+    "modified": "2023-05-18T14:07:39.321Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

@@ -18,7 +18,10 @@ func (blog blogImpl) GetAllBlogs(c *fiber.Ctx) error {
 	return c.JSON(blogs)
 }
 func (blog blogImpl) GetBlog(c *fiber.Ctx) error {
-	return c.JSON("Here is a blog")
+	singleBlog := map[string]interface{}{
+		"blog1": "This is blog number 1",
+	}
+	return c.JSON(singleBlog)
 }
 func (blog blogImpl) CreateBlog(c *fiber.Ctx) error {
 	return c.JSON("Here you create blogs")
